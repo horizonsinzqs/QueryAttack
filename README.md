@@ -83,20 +83,3 @@ If you want to contribute to this project, please follow these steps:
 
 ## License
 This project is licensed under the [MIT License]. See the `LICENSE` file for more details.
-
-## Contact
-If you have any questions or suggestions regarding this project, please feel free to contact us at [yanzhi2422@mails.jlu.edu.cn].
-
-## Citation
-If you find QueryAttack useful for your work please cite:
-```
-@misc{zou2025queryattack,
-      title={Making Them a Malicious Database: Exploiting Query Code to Jailbreak Aligned Large Language Models},
-      author={Qingsong Zou and Jingyu Xiao and Qing Li and Zhi Yan and Yuhang Wang and Li Xu and Wenxuan Wang and Kuofeng Gao and Ruoyu Li and Yong Jiang},
-      year={2025},
-      eprint={2502.09723},
-      archivePrefix={arXiv},
-      primaryClass={cs.CR},
-      url={https://arxiv.org/abs/2502.09723},
-}
-
