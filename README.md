@@ -1,8 +1,6 @@
 # QueryAttack
 
-# Project Overview
-
-Recent advances in large language models (LLMs) have demonstrated remarkable potential in the field of natural language processing. Unfortunately, LLMs face significant security and ethical risks. Although techniques such as safety alignment are developed for defense, prior researches reveal the possibility of bypassing such defenses through well-designed jailbreak attacks. In this paper, we propose QueryAttack, a novel framework to examine the generalizability of safety alignment. By treating LLMs as knowledge databases, we translate malicious queries in natural language into structured non-natural query language to bypass the safety alignment mechanisms of LLMs. We conduct extensive experiments on mainstream LLMs, and the results show that QueryAttack not only can achieve high attack success rates (ASRs), but also can jailbreak various defense methods. 
+This is the repository that contains the source code for QueryAttack. You can refer our work by [QueryAttack](https://never-far.github.io/llmqueryattack/) website.
 
 ## Project Structure
 
@@ -88,3 +86,17 @@ This project is licensed under the [MIT License]. See the `LICENSE` file for mor
 
 ## Contact
 If you have any questions or suggestions regarding this project, please feel free to contact us at [yanzhi2422@mails.jlu.edu.cn].
+
+## Citation
+If you find QueryAttack useful for your work please cite:
+```
+@misc{zou2025queryattack,
+      title={Making Them a Malicious Database: Exploiting Query Code to Jailbreak Aligned Large Language Models},
+      author={Qingsong Zou and Jingyu Xiao and Qing Li and Zhi Yan and Yuhang Wang and Li Xu and Wenxuan Wang and Kuofeng Gao and Ruoyu Li and Yong Jiang},
+      year={2025},
+      eprint={2502.09723},
+      archivePrefix={arXiv},
+      primaryClass={cs.CR},
+      url={https://arxiv.org/abs/2502.09723},
+}
+
