@@ -1,0 +1,5 @@
+openai~=1.54.3
+nltk~=3.9.1
+protobuf~=5.28.3
+google-genai
+
