@@ -36,12 +36,12 @@ To use this project, you need to obtain API keys for the relevant large language
    - Log in to your OpenAI account and navigate to the API key management section.
    - Create a new API key. Make sure to keep this key secure, as it grants access to your OpenAI account resources.
 3. **Configure the API key in the project**:
-   - In the `openai_log.py`、`gpt_judge.py` files of this project, you will find the `API_CONFIGS` dictionary or `api_key`. Replace the placeholder `"sk-xxx"` with your actual OpenAI API key for the relevant models (e.g., `"gpt-3.5-turbo"` and `"gpt-4-1106-preview"`).
+   - In the `openai_log.py`、`gpt_judge.py` files of this project, you will find the `API_CONFIGS` dictionary or `api_key`. Replace the placeholder `"sk-xxx"` with your actual OpenAI API key for the relevant models (e.g., `"gpt-4o"` and `"gpt-4-1106-preview"`).
 
 ##### Other Models (DeepSeek, Llama, etc.)
 - Similar to OpenAI, you need to sign up for accounts on the respective platforms that provide these models.
 - Obtain the API keys from their official websites or developer portals.
-- Update the `API_CONFIGS` dictionary or `api_key` in the `openai_log.py`、`gpt_judge.py` 、`test_gemini.py` files with the obtained API keys for the corresponding models.
+- Update the `API_CONFIGS` dictionary in the `openai_log.py` and `api_key` in `gpt_judge.py` 、`test_gemini.py` files with the obtained API keys for the corresponding models.
 
 **Note**:
 - Some models may require additional configuration, such as setting the base URL. Make sure to follow the official documentation of each model to correctly configure these settings.
