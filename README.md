@@ -2,6 +2,7 @@
 
 This is the repository that contains the source code for QueryAttack. You can refer our work by [QueryAttack](https://never-far.github.io/llmqueryattack/) website.
 
+
 ## Project Structure
 
 This project mainly contains the following Python files:
